@@ -14,7 +14,7 @@
     <dependencies>
         <dependency>
             <groupId>org.apache.nifi</groupId>
-            <artifactId>nifi-standard-services-api-nar</artifactId>
+            <artifactId>nifi-kerberos-credentials-service-nar</artifactId>
             <version>${nifi.version}</version>
             <type>nar</type>
         </dependency>
