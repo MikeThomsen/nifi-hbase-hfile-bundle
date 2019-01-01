@@ -51,6 +51,15 @@
         </dependency>
 
         <dependency>
+            <groupId>org.apache.hbase</groupId>
+            <artifactId>hbase-server</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.hbase</groupId>
+            <artifactId>hbase-common</artifactId>
+        </dependency>
+
+        <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <scope>test</scope>
@@ -65,6 +74,7 @@
             <artifactId>nifi-mock-record-utils</artifactId>
             <scope>test</scope>
         </dependency>
+
 
         <dependency>
             <groupId>org.apache.nifi</groupId>
